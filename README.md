@@ -44,10 +44,13 @@ Running in Google Colab (Recommended) Because the application handles GPU availa
 Only First cell need to be run rest cells have model tried from scartch are working but no need from scratch.
 
 Running extra cells will need two files to upload that are provided in github repo.
+
 1)ramcharitmanas
+
 2)perfect_ramcharitmanas_dataset.csv
     
-Install the dependencies:Use the pip install command listed above
+Install the dependencies:Use the pip install command : !pip install -q gradio transformers datasets sentencepiece \
+    deep-translator torch peft sacrebleu pandas
 
 How to Use the Interface: Once the application is running, you will be greeted with three main tabs: 
 
