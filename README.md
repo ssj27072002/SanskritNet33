@@ -42,6 +42,8 @@ This application is optimized to run locally or in cloud environments like Googl
 Running in Google Colab (Recommended) Because the application handles GPU availability automatically (falling back to CPU if limits are reached), Colab is the easiest way to run the project.Open a new Google Colab Notebook.Run the ipynb file.
 
 Only First cell need to be run rest cells have model tried from scartch are working but no need from scratch.
+
+Running extra cells will need two files to upload that are provided in github repo.
     
 Install the dependencies:Bashpip install -r requirements.txt  # Or use the pip install command listed above
 
