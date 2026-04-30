@@ -47,13 +47,9 @@ Running extra cells will need two files to upload that are provided in github re
 1)ramcharitmanas
 2)perfect_ramcharitmanas_dataset.csv
     
-Install the dependencies:Bashpip install -r requirements.txt  # Or use the pip install command listed above
+Install the dependencies:Use the pip install command listed above
 
-Run the application:Bashpython app.py
-
-Access the Web App: Open your web browser and go to the local host address provided in your terminal (usually http://127.0.0.1:7860). 
-
-How to Use the InterfaceOnce the application is running, you will be greeted with three main tabs: 
+How to Use the Interface: Once the application is running, you will be greeted with three main tabs: 
 
 Sanskrit → Awadhi:Paste a Sanskrit verse into the input box.Click the "Translate" button.The app will process the text through the Stage 1 API (Sanskrit $\rightarrow$ Hindi) and Stage 2 Model (Hindi $\rightarrow$ Awadhi). 
 
