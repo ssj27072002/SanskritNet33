@@ -39,14 +39,10 @@ This application is optimized to run locally or in cloud environments like Googl
 
 **Step-by-Step Execution Guide** 
 
-Option A: Running in Google Colab (Recommended) Because the application handles GPU availability automatically (falling back to CPU if limits are reached), Colab is the easiest way to run the project.Open a new Google Colab Notebook.Upload the sanskritnet_final folder to the Colab files section.Paste the contents of app.py into a notebook cell.Run the cell. The dependencies will install, and a public gradio.live link will appear at the bottom.
+Running in Google Colab (Recommended) Because the application handles GPU availability automatically (falling back to CPU if limits are reached), Colab is the easiest way to run the project.Open a new Google Colab Notebook.Run the ipynb file.
 
-Option B: Running LocallyClone the repository to your local machine:Bashgit clone [https://github.com/YOUR_USERNAME/SanskritNet.git](https://github.com/YOUR_USERNAME/SanskritNet.git)
-cd SanskritNet
-
-Set up a virtual environment (optional but recommended):Bash   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   
+Only First cell need to be run rest cells have model tried from scartch are working but no need from scratch.
+    
 Install the dependencies:Bashpip install -r requirements.txt  # Or use the pip install command listed above
 
 Run the application:Bashpython app.py
