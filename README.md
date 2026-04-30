@@ -44,6 +44,8 @@ Running in Google Colab (Recommended) Because the application handles GPU availa
 Only First cell need to be run rest cells have model tried from scartch are working but no need from scratch.
 
 Running extra cells will need two files to upload that are provided in github repo.
+1)ramcharitmanas
+2)perfect_ramcharitmanas_dataset.csv
     
 Install the dependencies:Bashpip install -r requirements.txt  # Or use the pip install command listed above
 
