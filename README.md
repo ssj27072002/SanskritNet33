@@ -52,9 +52,9 @@ Running extra cells will need two files to upload that are provided in github re
 Install the dependencies:Use the pip install command : !pip install -q gradio transformers datasets sentencepiece \
     deep-translator torch peft sacrebleu pandas
 
-How to Use the Interface: Once the application is running, you will be greeted with three main tabs: 
+**How to Use the Interface**: Once the application is running, you will be greeted with three main tabs: 
 
-Sanskrit → Awadhi:Paste a Sanskrit verse into the input box.Click the "Translate" button.The app will process the text through the Stage 1 API (Sanskrit $\rightarrow$ Hindi) and Stage 2 Model (Hindi $\rightarrow$ Awadhi). 
+Sanskrit → Awadhi:Paste a Sanskrit verse into the input box.Click the "Translate" button.The app will process the text through the Stage 1 API (Sanskrit $\rightarrow$ Hindi) and Stage 2 Model (Hindi $\rightarrow$ Awadhi). Here model will fail to generate direct awadhi so copy same hindi given into next tab for hindi to awadhi it will generate. Though not perfect but similar most of the times.
 
 Hindi → Awadhi:If you want to bypass the API, type a modern Hindi sentence directly into the input box to see how the model transfers the poetic style. 
 
